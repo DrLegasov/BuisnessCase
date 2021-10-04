@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(90deg, rgba(57,191,224,0.9800069686077556) 0%, rgba(193,243,255,1) 100%);;
+}
+nav{
+    background-color: white;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.nav-link:hover{
+    background-color: rgba(255, 207, 50, 0.438);
+    border-radius: 25px;
+    -webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+.navbar-brand{
+    margin-left: 170px; /*à changer pour le responsive @media screen*/
+    
+}
+#navbar {
+    background-color: rgba(255, 255, 255, 0.685);
+
+}
+#imageban{
+    margin-top: 80px;
+}
+#orangecarre2{
+    z-index: 0;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    background: rgb(222,238,174);
+    background: linear-gradient(9deg, rgba(222,238,174,1) 0%, rgba(192,221,251,1) 50%, rgba(255,254,234,1) 100%);
+}
+#section2{
+    margin-top: 15px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }

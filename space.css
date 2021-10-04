@@ -1,0 +1,86 @@
+body{
+    color: gold;
+    text-align: center;
+    background-image: radial-gradient(circle 8px at 92% 63%, rgb(255,250,85) 0%,transparent 22%),radial-gradient(circle 2px at 73% 80%, rgb(136,164,255) 0%,transparent 60%),radial-gradient(circle 2px at 88% 58%, rgb(136,164,255) 0%,transparent 5%),radial-gradient(circle 2px at 39% 24%, rgb(136,164,255) 0%,transparent 17%),radial-gradient(circle 2px at 31% 10%, rgb(136,164,255) 0%,transparent 83%),radial-gradient(circle 2px at 25% 64%, rgb(136,164,255) 0%,transparent 65%),radial-gradient(circle 2px at 46% 18%, rgb(136,164,255) 0%,transparent 86%),radial-gradient(circle 2px at 27% 89%, rgb(136,164,255) 0%,transparent 61%),radial-gradient(circle 2px at 72% 43%, rgb(136,164,255) 0%,transparent 46%),radial-gradient(circle 2px at 73% 2%, rgb(136,164,255) 0%,transparent 87%),radial-gradient(circle 5px at 94% 33%, rgb(253,250,147) 0%,transparent 93%),radial-gradient(circle 5px at 35% 87%, rgb(253,250,147) 0%,transparent 42%),radial-gradient(circle 4px at 78% 1%, rgb(255,207,27) 0%,transparent 76%),radial-gradient(circle 4px at 71% 51%, rgb(255,207,27) 0%,transparent 69%),radial-gradient(circle 4px at 26% 45%, rgb(255,207,27) 0%,transparent 83%),linear-gradient(90deg, rgb(1,0,0) 0%, rgb(1,0,0) 50%,rgb(1,0,0) 50%, rgb(1,0,0) 100%); background-size: 278px 278px;
+}
+
+nav {
+font-weight: bolder;  
+background-image: radial-gradient(circle 8px at 92% 63%, rgb(255,250,85) 0%,transparent 22%),radial-gradient(circle 2px at 73% 80%, rgb(136,164,255) 0%,transparent 60%),radial-gradient(circle 2px at 88% 58%, rgb(136,164,255) 0%,transparent 5%),radial-gradient(circle 2px at 39% 24%, rgb(136,164,255) 0%,transparent 17%),radial-gradient(circle 2px at 31% 10%, rgb(136,164,255) 0%,transparent 83%),radial-gradient(circle 2px at 25% 64%, rgb(136,164,255) 0%,transparent 65%),radial-gradient(circle 2px at 46% 18%, rgb(136,164,255) 0%,transparent 86%),radial-gradient(circle 2px at 27% 89%, rgb(136,164,255) 0%,transparent 61%),radial-gradient(circle 2px at 72% 43%, rgb(136,164,255) 0%,transparent 46%),radial-gradient(circle 2px at 73% 2%, rgb(136,164,255) 0%,transparent 87%),radial-gradient(circle 5px at 94% 33%, rgb(253,250,147) 0%,transparent 93%),radial-gradient(circle 5px at 35% 87%, rgb(253,250,147) 0%,transparent 42%),radial-gradient(circle 4px at 78% 1%, rgb(255,207,27) 0%,transparent 76%),radial-gradient(circle 4px at 71% 51%, rgb(255,207,27) 0%,transparent 69%),radial-gradient(circle 4px at 26% 45%, rgb(255,207,27) 0%,transparent 83%),linear-gradient(90deg, rgb(1,0,0) 0%, rgb(1,0,0) 50%,rgb(1,0,0) 50%, rgb(1,0,0) 100%); background-size: 278px 278px;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: -15px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: rgba(193, 213, 255, 0.438);
+    border-radius: 25px;
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.navbar-brand {
+    margin-left: 170px;
+    /*à changer pour le responsive @media screen*/
+
+}
+.pushit{
+    top: 80px;
+}
+
+
+
+.btn-grad {
+    font-weight: bold;
+    background-image: linear-gradient(to right, #2BC0E4 0%, #f7fac4 51%, #2BC0E4 100%)
+}
+
+.btn-grad {
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: top center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    z-index: 10;
+    font-size: 15px;
+    color: gold;
+}
+
+.card {
+    border: solid black 2px;
+    z-index: 10;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
