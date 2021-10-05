@@ -49,20 +49,20 @@
                         <a class="btn-grad nav-link px-2" href="sendSpace.php">INCROYABLE</a>
                     </li>
                     <li class="nav-item">
-                    <a class="btn-grad nav-link px-2" href="theyCameBack.php">CHAT ALORS !!</a>
+                        <a class="btn-grad nav-link px-2" href="theyCameBack.php">CHAT ALORS !!</a>
                     <li class="nav-item">
-                    <a class="btn-grad nav-link mx-3 px-5" href="profile.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                    </svg> </a>
+                        <a class="btn-grad nav-link mx-3 px-5" href="profile.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg> </a>
                     </li>
                     </li>
                     <li class="nav-item">
                         <a class="btn-grad nav-link mx-3 px-5" href="cart.php"><svg xmlns="http://www.w3.org/2000/svg"
-                                width="20" height="20" fill="currentColor" class="bi bi-basket3" viewBox="0 0 16 16">
-                                <path
-                                    d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM3.394 15l-1.48-6h-.97l1.525 6.426a.75.75 0 0 0 .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6h-9.21z" />
-                            </svg> </a>
+                            width="20" height="20" fill="currentColor" class="bi bi-basket3" viewBox="0 0 16 16">
+                            <path
+                            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM3.394 15l-1.48-6h-.97l1.525 6.426a.75.75 0 0 0 .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6h-9.21z" />
+                        </svg> </a>
                     </li>
                 </ul>
             </div>
@@ -73,23 +73,25 @@
         <hr>
         <h3 class=" upTitle mt-5 text-align-center mt-5">NOS PRODUITS</h3>
         <section>
+<div class=" mt-1 mx-5 px-5">
+    <div class=" mt-1 mx-5 px-5">
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="http://lorempixel.com/850/100/animals" class="d-block w-100 px-5" alt="...">
+                    <img src="http://lorempixel.com/850/200/animals" class="d-block w-100 px-5" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="http://lorempixel.com/850/100/cats" class="d-block w-100 px-5" alt="...">
+                    <img src="http://lorempixel.com/850/200/cats" class="d-block w-100 px-5" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="http://lorempixel.com/850/100/food" class="d-block w-100 px-5" alt="...">
+                    <img src="http://lorempixel.com/850/200/food" class="d-block w-100 px-5" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="http://lorempixel.com/850/100/nightlife" class="d-block w-100 px-5" alt="...">
+                    <img src="http://lorempixel.com/850/200/nightlife" class="d-block w-100 px-5" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="http://lorempixel.com/850/100/city" class="d-block w-100 px-5" alt="...">
+                    <img src="http://lorempixel.com/850/200/city" class="d-block w-100 px-5" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -103,6 +105,8 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    </div>
+</div>
     </section>
         <section>
             <div>

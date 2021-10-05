@@ -1,6 +1,6 @@
 <?php
 
-$qty >= 1;
+//$qty >= 1;
 
 
 $CartToOrder = array();
